@@ -1,0 +1,231 @@
+table {
+  overflow: hidden;
+}
+
+.main {
+  background-color: #018763;
+  margin-bottom: 5%;
+}
+
+.topnav {
+  overflow: hidden;
+
+  font-family: cursive;
+  position: relative;
+
+
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  margin-left: 10%;
+  position: relative;
+  top: 25px;
+
+}
+
+
+.topnav a:hover {
+  background-color: #019763;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+.nav1 a {
+  background-color: #ffb20e;
+  color: white;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+.navimg img {
+  position: relative;
+  left: 50%;
+  bottom: 20px;
+}
+
+.navimg:hover {
+  background-color: transparent !important;
+}
+
+.moreschooltable {
+  text-align: center;
+  margin-left: 5%;
+  width: 90%;
+
+}
+.footer {
+  text-align: justify;
+  background-color: #018763;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  margin-top: 5%;
+  padding-top: 30px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.logofooter img {
+  width: 65%;
+  position: relative;
+  top: 40px;
+  position: relative;
+  left: 70%;
+}
+
+.firstrow {
+  position: relative;
+  right: 9%;
+}
+
+.secondrow {
+  position: relative;
+  right: 10%;
+  padding-left: 50px;
+}
+
+.thirdrow {
+  position: relative;
+  right: 11%;
+  padding-left: 50px;
+}
+
+.fourthrow {
+  position: relative;
+  right: 8%;
+}
+
+.footer h5 {
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 13px;
+  font-size: medium;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.span {
+  margin-left: 10px;
+  color: #1eaace;
+}
+
+.span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.firstrow {
+  margin-left: 20%;
+  font-family: cursive;
+
+}
+
+.firstrow h5,
+li {
+  color: whitesmoke;
+}
+
+.secondrow {
+  font-family: cursive;
+}
+
+.secondrow h5 {
+  color: whitesmoke;
+}
+
+.thirdrow {
+  font-family: cursive;
+}
+
+.thirdrow h5 {
+  color: whitesmoke;
+}
+
+.fourthrow {
+  font-family: cursive;
+}
+
+.fourthrow h5 {
+  color: whitesmoke;
+}
+
+.icons {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.hline {
+  color: #fffef5;
+  width: 100%;
+
+}
+
+.copyr p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logofooter img {
+  position: relative;
+  right: 15%;
+}
+
+.icons img {
+  margin-left: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+
+}
+
+
+tr {
+  transition: all 2s ease-in-out;
+
+  &.slide-out {
+    transform: translateX(100%);
+  }
+
+  text-align: center;
+}
+
+th {
+  transition: all 1s ease-in-out;
+
+  &.slide-out {
+    transform: translateX(100%);
+  }
+
+  text-align: center;
+}

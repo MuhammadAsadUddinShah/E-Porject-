@@ -1,0 +1,432 @@
+.main {
+        background-color: #018763;
+        position: static;
+}
+
+
+
+.topnav {
+        overflow: hidden;
+        /* background-color: #02503b; */
+        font-family: cursive;
+        position: relative;
+        /* top: 40px; */
+
+        
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2 ;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        /* margin-top: 20px; */
+        margin-left: 10%;
+        position: relative;
+        top: 25px;
+        
+      }
+
+      
+      .topnav a:hover {
+        background-color: #019763;
+        color: white;
+        -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+        
+      }
+       .nav1 a{
+        background-color: #ffb20e;
+        color: white;
+       } 
+      
+    
+      
+      .topnav .icon {
+        display: none;
+      }
+      .navimg img{
+position: relative;
+left: 50%;
+bottom:20px;
+      }
+      .navimg:hover{
+        background-color: transparent!important;
+      }
+
+@-webkit-keyframes bounce-in-fwd {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+                opacity: 0;
+        }
+
+        38% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+                opacity: 1;
+        }
+
+        55% {
+                -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        72% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+
+        81% {
+                -webkit-transform: scale(0.84);
+                transform: scale(0.84);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        89% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+
+        95% {
+                -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+}
+
+@keyframes bounce-in-fwd {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+                opacity: 0;
+        }
+
+        38% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+                opacity: 1;
+        }
+
+        55% {
+                -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        72% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+
+        81% {
+                -webkit-transform: scale(0.84);
+                transform: scale(0.84);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        89% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+
+        95% {
+                -webkit-transform: scale(0.95);
+                transform: scale(0.95);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+}
+body{
+        background-color: #018763;
+}
+.text-focus-in{
+background-color: #018763;
+/* background-image: url(assests/pattern_1.jpg);
+background-repeat: no-repeat; */
+
+}
+.container{
+background-color: #fff;
+}
+.educator22 {
+        /* margin-top: 5%; */
+        margin-left: 8%;
+}
+
+.educator22 img {
+        height: 300px;
+        width: 55%;
+}
+
+.educator22 h2 {
+        margin-top: 20px !important;
+        font-family: cursive;
+        font-weight: 500;
+        margin-top: 1%;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: black;
+        text-align: justify !important;
+        letter-spacing: 1px;
+
+}
+
+.description {
+        color: black;
+        text-align: justify;
+        font-family: cursive;
+        letter-spacing: 1px;
+}
+.buttonpara a{
+        text-decoration: none;
+        color: #e05100 !important;
+}
+.buttonpara {
+        
+        background-color: whitesmoke !important;
+        color: #e05100 !important;
+        border:whitesmoke 1px solid;
+        width: 18% !important;
+        border-radius: 8px !important;
+        padding-left: 12px !important;
+        padding-right: 10px !important;
+        padding-top: 6px !important;
+        padding-bottom: 10px !important;
+        box-shadow: 1px 1px 0px 2px;
+        font-weight: 700;
+        margin-top: 50px;
+        height: 40px;
+        font-family: cursive;
+        letter-spacing: 1px;
+}
+
+.buttonpara:hover {
+        
+color: rgb(246, 161, 70)!important; 
+        color: white;
+}
+
+.map1 {
+        margin-top: 50px;
+}
+.table{
+width:84%;
+}
+
+/* .buttonpara{
+        margin-top: 30px;
+      }
+       */
+       .footer {
+        text-align: justify;
+        background-color: #018763;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 100%;
+        margin-top: 10px;
+        padding-top: 30px;
+      
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      }
+      .logofooter img {
+        width: 85%;
+        position: relative;
+        top: 40px;
+        position: relative;
+        left: 90%;
+      }
+      .firstrow {
+        position: relative;
+        right: 4%;
+      }
+      .secondrow {
+        position: relative;
+        right: 4%;
+        padding-left: 30px;
+      }
+      .thirdrow {
+        position: relative;
+        right: 4%;
+        padding-left: 20px;
+      }
+      .fourthrow {
+        position: relative;
+        right: 3%;
+      }
+      .footer h5{
+        color: white!important;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      .footer li{
+        color: white;
+      }
+      .footer a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-size: medium;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+      .firstrow {
+        margin-left: 20%;
+        font-family: cursive;
+      }
+      .firstrow h5 {
+        color: #000;
+      }
+      .secondrow {
+        font-family: cursive;
+      }
+      .secondrow h5 {
+        color: #000;
+      }
+      .thirdrow {
+        font-family: cursive;
+      }
+      .thirdrow h5 {
+        color: #000;
+      }
+      .fourthrow {
+        font-family: cursive;
+      }
+      .fourthrow h5 {
+        color: #000;
+      }
+      .icons {
+        justify-content: center;
+        display: flex;
+      }
+      
+      .hline {
+        color: #fffef5;
+        width: 100%;
+      }
+      .copyr p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        color: white;
+      }
+      .icons img{
+position: relative;
+right: 15%;
+      }
+      .copyr span:hover{
+        text-decoration: underline;
+      }
+      .icons img {
+        margin-left: 30px;
+        /* margin-right: 30px; */
+        /* padding-right:40px ; */
+        /* margin-bottom: 20px; */
+      }
+      .text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes text-focus-in {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      /* Center the loader */
+#loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 120px;
+        height: 120px;
+        margin: -76px 0 0 -76px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #017053;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+      
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Animation to Page loader */
+      .animate-bottom {
+        position: relative;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 1s;
+        animation-name: animatebottom;
+        animation-duration: 1s
+      }
+      
+      @-webkit-keyframes animatebottom {
+        from { bottom:-100px; opacity:0 } 
+        to { bottom:0px; opacity:1 }
+      }
+      
+      @keyframes animatebottom { 
+        from{ bottom:-100px; opacity:0 } 
+        to{ bottom:0; opacity:1 }
+      }
+      
+      #myDiv {
+        display: none;
+        text-align: center;
+      }
